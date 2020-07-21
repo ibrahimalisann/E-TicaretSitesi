@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Giris</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="top-header">
+            <div class="container">
+                <div class="center">
+                    <span>Veritabanı proje</span>
+                </div>
+            </div>
+        </div>
+        <!-- /top Header -->
+        <!-- header -->
+        <div id="header">
+            <div class="container">
+                <div class="pull-left">
+                    <!-- Logo -->
+                    <div class="header-logo">
+                        <a class="logo" href="#">
+                            <img src="./img/logo3.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+                    <!-- Search -->
+                    <div class="header-search">
+                        <form>
+                            <input class="input search-input" type="text" placeholder="Ara">
+                            <button class="search-btn"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- /Search -->
+                </div>
+                <div class="pull-right">
+                    <ul class="header-btns">
+                        <!-- Hesap -->
+                        <li class="header-account dropdown default-dropdown">
+                            <div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+                                <div class="header-btns-icon">
+                                    <i class="fa fa-user-o"></i>
+                                </div>
+                                <strong class="text-uppercase">Hesap <i class="fa fa-caret-down"></i></strong>
+                            </div>
+                            <a href="#" class="text-uppercase">Giriş</a> / <a href="#" class="text-uppercase"></a>
+                            <ul class="custom-menu">
+                                <li><a href="hesabim1.html"><i class="fa fa-user-o"></i> Hesabım</a></li>
+                                <li><a href="giris1.html"><i class="fa fa-unlock-alt"></i>Giriş</a></li>
+                                <li><a href="hesabim1.html"><i class="fa fa-user-plus"></i> Hesap Oluştur</a></li>
+                                <li><a href="#"><i class="fa fa-sign-out"></i>Çıkış yap</a></li>
+                            </ul>
+                        </li>
+                        <!-- /Hesap -->
+                        <!-- Sepetim -->
+                        <li class="header-cart dropdown default-dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <div class="header-btns-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="qty">2</span>
+                                </div>
+                                <strong class="text-uppercase">Sepetim:</strong>
+                                <br>
+                                <span>₺</span>
+                            </a>
+                            <div class="custom-menu">
+                                <div id="shopping-cart">
+                                    <div class="shopping-cart-list">
+                                        <div class="product product-widget">
+                                            <div class="product-thumb">
+                                                <img src="./img/ürün7.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-price">79.90₺</h3>
+                                                <h2 class="product-name"><a href="./products2.html">Toz sıkma kehribar tesbih</a></h2>
+                                            </div>
+                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                        </div>
+                                        <div class="product product-widget">
+                                            <div class="product-thumb">
+                                                <img src="./img/ürün10.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-price">99.90₺</h3>
+                                                <h2 class="product-name"><a href="./products2.html">Oltu taşlı tesbih</a></h2>
+                                            </div>
+                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- /Sepetim -->
+                        <!-- Mobile nav toggle-->
+                        <li class="nav-toggle">
+                            <button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+                        </li>
+                        <!-- / Mobile nav toggle -->
+                    </ul>
+                </div>
+            </div>
+            <!-- header -->
+        </div>
+        <!-- container -->
+    </header>
+    <!-- /HEADER -->
+    <!-- NAVIGATION -->
+    <div id="navigation">
+        <!-- container -->
+        <div class="container">
+            <div id="responsive-nav">
+
+                <!-- menu nav -->
+                <div class="menu-nav">
+
+                    <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+
+                    <ul class="menu-list">
+
+                        <li>
+                            <a href="http://localhost:3193/Home/Index">
+                                <span></span>Anasayfa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span ></span>Yönetim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hakkında.html">
+                                <span ></span>Hakkında
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3193/products.html">
+                                <span></span>Ürünler
+                            </a>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- /category nav -->
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /NAVIGATION -->
+    <!-- section -->
+    <div class="section">
+        <!-- container -->
+    </div>
+    <div class="col col-12">
+        <h3 class="text-xl-center">Giris yap</h3>
+
+        <div class="box col-12 p-bottom form-control large" id="alan_eposta">
+            <div class="row input-icon tooltipWrapper">
+                <input type="text" placeholder="E-Mail" name="email" id="email" autocapitalize="off" class="col col-12 required withPlace" />
+                <span id="eposta_hata"></span>
+                <span id="kayitli_eposta"></span>
+
+            </div>
+        </div>
+        <h4 class="text-left">Şifre</h4>
+    <div class="box col-12 p-bottom form-control large" id="alan_parola">
+        <div class="row input-icon tooltipWrapper">
+            <input type="password" placeholder="Şifre" name="password" id="password" class="col col-12 required withPlace" />
+        </div>
+    </div>
+
+
+
+    </div>
+    <!-- /MAIN -->
+    </div>
+    <!-- /row -->
+    </div>
+    <!-- /container -->
+    </div>
+    <!-- /section -->
+    <!-- FOOTER -->
+    <footer id="footer" class="section section-grey">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <a class="logo" href="#">
+                                <img src="./img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <!-- /footer logo -->
+                        <div class="text-lg-left"></div>
+                        <h3>Sosyal Medya</h3>
+                        <p>Bizi tercih ettiğiniz için teşekkür ederiz</p>
+
+                        <!-- footer social -->
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <!-- /footer social -->
+                    </div>
+                </div>
+                <!-- /footer widget -->
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer-header">Hesabım</h3>
+                        <ul class="list-links">
+                            <li><a href="#">Hesabım</a></li>
+                            <li><a href="#">İsteklerim</a></li>
+                            <li><a href="#">Karşılaştır</a></li>
+                            <li><a href="#">Kontrol et</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /footer widget -->
+
+                <div class="clearfix visible-sm visible-xs"></div>
+
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer-header">Müşteri Servisi</h3>
+                        <ul class="list-links">
+                            <li><a href="#">Hakkında</a></li>
+                            <li><a href="#">Kargo iade</a></li>
+                            <li><a href="#">Nakliye rehberi</a></li>
+                            <li><a href="#">SSS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /footer widget -->
+                <!-- footer subscribe -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer">Ürünlerimizi çok mu beğendiniz</h3>
+                        <p>Yeni ürünlerden haberdar olmak için mail adresinizi yazabilirsiniz.</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="input" placeholder="Mail adresi:">
+                            </div>
+                            <button class="primary-btn">Ailemize katıl</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /footer subscribe -->
+            </div>
+            <!-- /row -->
+            <hr>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Telif Hakkı &copy;
+                        <script>document.write(new Date().getFullYear());</script> Telif Hakkı | Bu hakların tamamı grubumuza aittir <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <!-- /footer copyright -->
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /FOOTER -->
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Erzurum Oltu Tesbih</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="top-header">
+            <div class="container">
+                <div class="center">
+                    <span>Veritabanı proje</span>
+                </div>
+            </div>
+        </div>
+        <!-- /top Header -->
+        <!-- header -->
+        <div id="header">
+            <div class="container">
+                <div class="pull-left">
+                    <!-- Logo -->
+                    <div class="header-logo">
+                        <a class="logo" href="#">
+                            <img src="./img/logo3.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+                    <!-- Search -->
+                    <div class="header-search">
+                        <form>
+                            <input class="input search-input" type="text" placeholder="Ara">
+                            <button class="search-btn"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- /Search -->
+                </div>
+                <div class="pull-right">
+                    <ul class="header-btns">
+                        <!-- Hesap -->
+                        <li class="header-account dropdown default-dropdown">
+                            <div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+                                <div class="header-btns-icon">
+                                    <i class="fa fa-user-o"></i>
+                                </div>
+                                <strong class="text-uppercase">Hesap <i class="fa fa-caret-down"></i></strong>
+                            </div>
+                            <a href="#" class="text-uppercase">Giriş</a> / <a href="#" class="text-uppercase"></a>
+                                                                           <ul class="custom-menu">
+                                                                               <li><a href="./hesabim1.html"><i class="fa fa-user-o"></i> Hesabım</a></li>
+                                                                               <li><a href="./giris1.html"><i class="fa fa-unlock-alt"></i>Giriş</a></li>
+                                                                               <li><a href="./hesabim1.html"><i class="fa fa-user-plus"></i> Hesap Oluştur</a></li>
+                                                                               <li><a href="#"><i class="fa fa-sign-out"></i>Çıkış yap</a></li>
+                                                                           </ul>
+                        </li>
+                        <!-- /Hesap -->
+                        <!-- Sepetim -->
+                        <li class="header-cart dropdown default-dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <div class="header-btns-icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="qty">2</span>
+                                </div>
+                                <strong class="text-uppercase">Sepetim:</strong>
+                                <br>
+                                <span>₺</span>
+                            </a>
+                            <div class="custom-menu">
+                                <div id="shopping-cart">
+                                    <div class="shopping-cart-list">
+                                        <div class="product product-widget">
+                                            <div class="product-thumb">
+                                                <img src="./img/ürün7.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-price">79.90₺</h3>
+                                                <h2 class="product-name"><a href="#">Toz sıkma kehribar tesbih</a></h2>
+                                            </div>
+                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                        </div>
+                                        <div class="product product-widget">
+                                            <div class="product-thumb">
+                                                <img src="./img/ürün10.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-price">99.90₺</h3>
+                                                <h2 class="product-name"><a href="#">Oltu taşlı tesbih</a></h2>
+                                            </div>
+                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- /Sepetim -->
+                        <!-- Mobile nav toggle-->
+                        <li class="nav-toggle">
+                            <button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+                        </li>
+                        <!-- / Mobile nav toggle -->
+                    </ul>
+                </div>
+            </div>
+            <!-- header -->
+        </div>
+        <!-- container -->
+    </header>
+    <!-- /HEADER -->
+    <!-- NAVIGATION -->
+    <div id="navigation">
+        <!-- container -->
+        <div class="container">
+            <div id="responsive-nav">
+
+                <!-- menu nav -->
+                <div class="menu-nav">
+
+                    <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+
+                    <ul class="menu-list">
+
+                        <li>
+                            <a href="http://localhost:3193/Home/Index">
+                                <span></span>Anasayfa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>Yönetim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./hakkında.html">
+                                <span ></span>Hakkında
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:3193/products.html">
+                                <span></span>Ürünler
+                            </a>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- /category nav -->
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /NAVIGATION -->
+    <!-- section -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- ASIDE -->
+                <div id="aside" class="col-md-3">
+                    <!-- aside widget -->
+                    <div class="aside">
+
+                        <ul class="filter-list">
+                            <li><span class="text-uppercase">Fiyat aralığı:</span></li>
+                            <li><a href="#">MIN: 49.90₺</a></li>
+                            <li><a href="#">MAX: 999.90₺</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- aside widget -->
+                    <!-- aside widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Tesbih</h3>
+                        <ul class="list-links">
+                            <li><a href="products2.html">Kehribar</a></li>
+                            <li><a href="products2.html">Oltu Taşı</a></li>
+                            <li><a href="product3.html">Gümüş Tesbih</a></li>
+                            <li><a href="product3.html">Ağaç Tesbih</a></li>
+                            <li><a href="products2.html">Taş Tesbih</a></li>
+                            <li><a href="product3.html">Hayvansal Tesbih</a></li>
+                            <li><a href="product3.html">Katalin Tesbih</a></li>
+                        </ul>
+                        <button class="primary-btn">Temizle</button>
+                    </div>
+                    <!-- /aside widget -->
+                    <!-- aside widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">En Popüler Tesbihler</h3>
+                        <!-- widget product -->
+                        <div class="product product-widget">
+                            <div class="product-thumb">
+                                <img src="./img/ürün7.jpg" alt="">
+                            </div>
+                            <div class="product-body">
+                                <h2 class="product-name"><a href="#">Toz sıkma kehribar tesbih</a></h2>
+                                <h3 class="product-price">79.90₺</h3>
+                                <div class="product-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /widget product -->
+                        <!-- widget product -->
+                        <div class="product product-widget">
+                            <div class="product-thumb">
+                                <img src="./img/ürün16.jpg" alt="">
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-name"><a href="#">8'li Yarma Ve Büyük Baklava İşlemeli Oltu Tesbih</a></h3>
+                                <h2 class="product-price">99.90₺</h2>
+                                <div class="product-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /widget product -->
+                        <!-- widget product -->
+                        <div class="product product-widget">
+                            <div class="product-thumb">
+                                <img src="./img/ürün17.jpg" alt="">
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-name"><a href="#">Osmanlı Tuğrası İşlemeli Oltu Tesbih</a></h3>
+                                <h2 class="product-price">99.90₺ <del class="product-old-price">169.90₺</del></h2>
+                                <div class="product-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /widget product -->
+                    </div>
+                    <!-- /aside widget -->
+                </div>
+                <!-- /ASIDE -->
+                <!-- MAIN -->
+                <div id="main" class="col-md-9">
+                    <!-- store top filter -->
+                    <div class="store-filter clearfix">
+                        <div class="pull-left">
+
+                            <div class="sort-filter">
+                                <span class="text-uppercase">Sırala:</span>
+                                <select class="input">
+                                    <option value="0" selected>Varsayılan</option>
+                                    <option value="0">Fiyat artan</option>
+                                    <option value="0">Fiyat azalan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="pull-right">
+                            <div class="page-filter">
+                                <span class="text-body">Göster:</span>
+                                <select class="input">
+                                    <option value="0">9</option>
+                                    <option value="1">18</option>
+                                    <option value="2">27</option>
+                                </select>
+                            </div>
+                            <ul class="store-pages">
+                                <li><span class="text-uppercase">Sayfa:</span></li>
+                                <li class="active">1</li>
+                                <li><a href="products2.html">2</a></li>
+                                <li><a href="product3.html">3</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /store top filter -->
+                    <!-- STORE -->
+                    <div id="store">
+                        <!-- row -->
+                        <div class="row">
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/ürün001.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">369.90₺ <del class="product-old-price">499.90₺</del></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-empty"></i>
+                                            <i class="fa fa-star-o empty"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Ateş Kehribarı Taşlı 925 Ayar Gümüş Tesbih</a></h3>                              <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/ürün14.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h2 class="product-price">89.90₺</h2>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Ateş Kehibarı 925 Ayar Gümüş Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+
+                            <div class="clearfix visible-sm visible-xs"></div>
+
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/ürün16.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h2 class="product-price">99.90₺</h2>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">8'li Yarma Ve Büyük Baklava İşlemeli Oltu Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+
+                            <div class="clearfix visible-md visible-lg"></div>
+
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <div class="product-label">
+                                            <span>New</span>
+                                        </div>
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/ürün15.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h2 class="product-price">89.90₺ <del class="product-old-price">149.90₺</del></h2>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <i class="fa fa-star-o empty"></i>
+                                            <i class="fa fa-star-o empty"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Küre Kesim Kazazlı Sarı Sıkma Kehribar Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+
+                            <div class="clearfix visible-sm visible-xs"></div>
+
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <div class="product-label">
+                                        </div>
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/ürün17.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h2 class="product-price">99.90₺ <del class="product-old-price">169.90₺</del></h2>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Osmanlı Tuğrası İşlemeli Oltu Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <div class="product-label">
+                                            <span>New</span>
+                                        </div>
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/main-product02.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">449.90₺ <del class="product-old-price">549.90₺</del></h3>
+                                        <h2 class="product-name"><a href="#">Gümüş Kalemli Oltu Tesbih</a></h2>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+
+                            <div class="clearfix visible-md visible-lg visible-sm visible-xs"></div>
+
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <div class="product-label">
+                                            <span>New</span>
+                                        </div>
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/product 003.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">149.90₺</h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <h2 class="product-name"><a href="#">Ateş Kırmızısı Kehribar Tesbih</a></h2>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/product004.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">99.90₺ <del class="product-old-price">149.90₺</del></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                            <i class="fa fa-star-o empty"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Ay Yıldız Başlı Ağaç Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+
+                            <div class="clearfix visible-sm visible-xs"></div>
+
+                            <!-- Product Single -->
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="product product-single">
+                                    <div class="product-thumb">
+                                        <div class="product-label">
+                                        </div>
+                                        <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Detay</button>
+                                        <img src="./img/product008.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">99.90₺ <del class="product-old-price" 169.90₺</del></h3>                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Oltu Taşlı Tesbih</a></h3>
+                                        <div class="product-btns">
+                                            <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                            <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Sepete Ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Product Single -->
+                        </div>
+                        <!-- /row -->
+                    </div>
+                    <!-- /STORE -->
+                    <!-- store bottom filter -->
+                    <div class="store-filter clearfix">
+                        <div class="pull-right">
+                            <div class="page-filter">
+                                <span class="text-black-50">Göster:</span>
+                                <select class="input">
+                                    <option value="0">9</option>
+                                    <option value="1">18</option>
+                                    <option value="2">27</option>
+                                </select>
+                            </div>
+                            <ul class="store-pages">
+                                <li><span class="text-uppercase">Sayfa:</span></li>
+                                <li class="active">1</li>
+                                <li><a href="products2.html">2</a></li>
+                                <li><a href="product3.html">3</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /store bottom filter -->
+                </div>
+                <!-- /MAIN -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /section -->
+    <!-- FOOTER -->
+    <footer id="footer" class="section section-grey">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <a class="logo" href="#">
+                                <img src="./img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <!-- /footer logo -->
+                        <h2>Sosyal Medya</h2>
+                        <p>Bizi tercih ettiğiniz için teşekkür ederiz</p>
+
+                        <!-- footer social -->
+                        <ul class="footer-social">
+
+                            <li><a href="https://wwww.facebook.com.tr"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://wwww.twitter.com.tr"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://wwww.instagram.com.tr"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <!-- /footer social -->
+                    </div>
+                </div>
+                <!-- /footer widget -->
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer-header">Hesabım</h3>
+                        <ul class="list-links">
+                            <li><a href="~/hesabim1.html">Hesabım</a></li>
+                            <li><a href="#">İsteklerim</a></li>
+                            <li><a href="#">Karşılaştır</a></li>
+                            <li><a href="#">Kontrol et</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /footer widget -->
+
+                <div class="clearfix visible-sm visible-xs"></div>
+
+                <!-- footer widget -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer-header">Müşteri Servisi</h3>
+                        <ul class="list-links">
+                           <li><a href="~/hakkında.html">Hakkında</a></li>
+                            <li><a href="https://www.mngkargo.com.tr">Kargo iade</a></li>
+                            <li><a href="https://www.mngkargo.com.tr/gonderitakip">Nakliye rehberi</a></li>
+                            <li><a href="#">SSS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /footer widget -->
+                <!-- footer subscribe -->
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="footer">
+                        <h3 class="footer">Ürünlerimizi çok mu beğendiniz</h3>
+                        <p>Yeni ürünlerden haberdar olmak için mail adresinizi yazabilirsiniz.</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="input" placeholder="Mail adresi:">
+                            </div>
+                            <button class="primary-btn">Ailemize katıl</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /footer subscribe -->
+            </div>
+            <!-- /row -->
+            <hr>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Telif Hakkı &copy;
+                        <script>document.write(new Date().getFullYear());</script> Telif Hakkı | Bu hakların tamamı grubumuza aittir <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <!-- /footer copyright -->
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /FOOTER -->
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+
